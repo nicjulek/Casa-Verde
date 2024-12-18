@@ -1,7 +1,21 @@
-import './Menu.css'
+import styled from 'styled-components'
+
+const Navbar = styled.nav`
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 200px;
+    font-family: 'Montserrat', sans-serif;
+
+    ul{
+        display: flex;
+        margin: 20px;
+        gap:30px;
+    }
+`;
 
 const Menu = () => {
-    return (<nav>
+    return (<Navbar>
         <section className='casa-verde'>
             <div className='navbar-logo'>
                 <div className='logo'>
@@ -29,7 +43,7 @@ const Menu = () => {
             </ul>
         </section>
 
-    </nav>
+    </Navbar>
     );
 }
 

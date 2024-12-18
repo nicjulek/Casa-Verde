@@ -2,11 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@400;900&family=Livvic&display=swap');
 
 body {
-    background-image: url('../public/images/body-shape.svg'),
+    background-image:url('../public/images/hero-image.png'),
+        url('../public/images/body-shape.svg'),
         url('../public/images/bg.jpg');
     background-position:
+        top center,
         top right;
     background-repeat:
+        no-repeat,
         no-repeat,
         repeat-x;
     font-family: 'Montserrat', sans-serif;
